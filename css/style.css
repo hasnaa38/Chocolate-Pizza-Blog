@@ -1,0 +1,166 @@
+html {
+    width: 960px;
+    margin: auto;
+}
+  
+img {
+    width: auto;
+}
+
+header, #topMain {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    gap: 500px;
+}
+
+#logo img {
+    float: left;
+    margin-right: 10px;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#logo h1 {
+    position: absolute;
+    margin-top: -5px;
+    margin-bottom: 0px;
+    left: 50px;
+    font-family: 'Style Script', cursive;
+    font-style: italic;
+}
+
+#logo small {
+    position: absolute;
+    top: 32px;
+    color: #879389;
+    font-family: 'Oswald', sans-serif;
+    font-size: 10px;
+}
+
+#links {
+    margin-left: 100px;
+}
+
+.line {
+    margin-top: 20px;
+}
+
+#div2TopMain img {
+    position: absolute;
+    display: inline-block;
+    margin-top: 30px;
+    height: 14px;
+
+}
+
+#div2TopMain p {
+    position: absolute;
+    color: #879389;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    
+}
+
+#topMain h2 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+#topMain small {
+    position: absolute;
+    margin-top: -20px;
+    color: #879389;
+    font-family: 'Oswald', sans-serif;
+    font-size: 12px;
+}
+
+#topMain {
+    margin-bottom: 20px;
+}
+
+#paras p {
+    color: gray;
+}
+
+#paras {
+    width: 880px;
+    font-size: 18px;
+    align-content: center;
+    margin:30px 15px;
+    
+}
+
+#container {
+    background-image: url('../img/list-bg.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 900px;
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 50px;    
+}
+
+ul li {
+    list-style-type: none;
+    padding: 5px;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+#firstFooter {
+    display: grid;
+    grid-template-columns: auto auto;
+    position: relative;
+    gap: 100px;
+    margin-bottom: 80px;
+    margin-top: 30px;
+}
+
+#firstFooter h2 {
+    position: absolute;
+    left: 90px;
+    top: -18px;
+}
+
+#firstFooter p {
+    position: absolute;
+    left: 90px;
+    top: 18px;
+    font-size: 18px;
+}
+
+button {
+    background-color: #BA7057;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    position: absolute;
+    right: 50px;
+    top: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0%;
+}
+
+footer {
+    text-align: center;
+    color: gray;
+    border-top: 1px solid gray;
+}
+
+footer img {
+    position: relative;
+    bottom: 20px;
+}
+
+footer p {
+    margin-bottom: 40px;
+}
